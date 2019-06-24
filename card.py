@@ -20,6 +20,6 @@ class Card(object):
         self.suit = s
 
     # 引数付きのインスタンスを文字列で返してくれる関数
-    def __str__(self):
+    def __repr__(self):
         v = self.suits[self.suit] + str(self.values[self.value])
         return v

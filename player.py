@@ -16,14 +16,18 @@ class Person(object):
 
     def __init__(self):
         self.wins = 0
-        self.card = None
+        self.card = []
 
 
 class Dealer(Person):
     def __init__(self):
         self.name = "Dealer"
+        self.card = []
+        self.wins = 0
 
 
 class Player(Person):
     def __init__(self):
         self.name = "You"
+        self.card = []
+        self.wins = 0

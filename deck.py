@@ -16,7 +16,7 @@ class Deck(object):
         shuffle(self.cards)
 
     # ドロー : デッキから要素を1つ削除し、その要素を取り出す
-    def rm_card(self):
+    def draw(self):
         # デッキがない場合は何もしない
         if len(self.cards) == 0:
             return
